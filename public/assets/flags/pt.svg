@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- Portugal flag: green (2/5) + red (3/5) -->
+  <rect width="360" height="600" fill="#006600"/>
+  <rect x="360" width="540" height="600" fill="#FF0000"/>
+  <!-- Shield and coat of arms (simplified) -->
+  <circle cx="360" cy="300" r="90" fill="#FFD700" opacity="0.9"/>
+  <circle cx="360" cy="300" r="70" fill="#006600"/>
+  <circle cx="360" cy="300" r="50" fill="#FFD700" opacity="0.7"/>
+</svg>
