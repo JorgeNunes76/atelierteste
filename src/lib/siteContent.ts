@@ -30,7 +30,7 @@ export const SITE_CONTENT_DEFAULTS = {
   sobre_imagem: "/ana-alexandre-retrato.jpg",
   sobre_texto_2:
     "Doutorou-se em Pintura - Modos de Conhecimento na Prática Artística Contemporânea pela Faculdade de Belas Artes da Universidade de Vigo (2015), com a tese  “A Pintura Abstracta Portuguesa No Seculo XXI” de natureza teórica centrada nas problemáticas da pintura contemporânea, aprofundando os seus fundamentos conceptuais, enquadramentos críticos e dimensões epistemológicas. \n\n Concluiu o Mestrado em Pintura na Faculdade de Belas Artes da Universidade do Porto (2004-2006) e a Licenciatura em Pintura na Escola Universitária das Artes de Coimbra – (ARCA - ETAC)(1995 - 2000).\n\nA sua atividade articula prática artística e investigação assumindo a pintura como território de produção de conhecimento. \n\nParticipa regularmente em exposições nacionais e internacionais, integrando mostras individuais e coletivas que evidenciam a consistência e continuidade do seu percurso. No âmbito da docência, lecionou no Instituto Politécnico de Tomar e desenvolve atualmente atividade no ensino superior nas áreas das artes visuais. No ensino, tal como na prática artística, privilegia o rigor, a analise e a experimentação, entendendo o processo pedagógico como um espaço de formação crítica e de desenvolvimento sensível. \n\n No seu percurso, arte, pensamento e docência convergem numa mesma matriz: a pintura como estrutura, linguagem e reflexão.",
-  sobre_imagem_2: "",
+  sobre_imagem_2: "/ana-alexandre-sobre-2.jpg",
 
   contacto_titulo: "Vamos conversar",
   contacto_subtitulo:
