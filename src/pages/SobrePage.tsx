@@ -10,7 +10,7 @@ import { buildSiteContentFromConfigs, SITE_CONTENT_DEFAULTS } from "../lib/siteC
 
 import { GOLD } from "../lib/tokens";
 
-const artistImage = "/ana-alexandre-retrato.jpg";
+const artistImage = "/ana-alexandre-retrato-v2.jpg";
 
 const galleryImage =
   "https://images.unsplash.com/photo-1723974591057-ccadada1f283?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb250ZW1wb3JhcnklMjBhcnQlMjBleGhpYml0aW9uJTIwbW9kZXJuJTIwZ2FsbGVyeXxlbnwxfHx8fDE3NzM1OTI3MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral";
@@ -93,11 +93,11 @@ export function SobrePage() {
                         <span className="italic">
                           {lastName}
                           {info && (
-                            <span 
-                              style={{ 
-                                fontSize: "0.35em", 
-                                fontStyle: "normal", 
-                                marginLeft: "15px", 
+                            <span
+                              style={{
+                                fontSize: "0.35em",
+                                fontStyle: "normal",
+                                marginLeft: "15px",
                                 verticalAlign: "middle",
                                 color: "#999",
                                 letterSpacing: "0.05em",
@@ -117,8 +117,8 @@ export function SobrePage() {
                   const isLast = index === sobreIntroParagraphs.length - 1;
                   const toneClass = index === 0 ? "text-[#666]" : "text-[#999]";
                   return (
-                    <p 
-                      key={`sobre-intro-${index}`} 
+                    <p
+                      key={`sobre-intro-${index}`}
                       className={`text-[1rem] ${toneClass} leading-[1.9] ${isLast ? "" : "mb-6"}`}
                       style={{ textAlign: "justify" }}
                     >
@@ -171,7 +171,7 @@ export function SobrePage() {
               <div className="aspect-[4/5] overflow-hidden bg-[#fafaf8] hover:shadow-2xl transition-shadow duration-700">
                 <ImageWithFallback
                   src={content.sobre_imagem_2 || image_b7b24245abcdea29bab902e1ad12d72e9afc2799}
-                  alt="Exposição"
+                  alt="Ana Alexandre"
                   className="w-full h-full object-contain hover:scale-105 transition-transform duration-[1.2s] ease-out"
                 />
               </div>
@@ -193,8 +193,8 @@ export function SobrePage() {
                   const isLast = index === sobreSecondaryParagraphs.length - 1;
                   const toneClass = index < 2 ? "text-[#666]" : "text-[#999]";
                   return (
-                    <p 
-                      key={`sobre-secondary-${index}`} 
+                    <p
+                      key={`sobre-secondary-${index}`}
                       className={`text-[1rem] ${toneClass} leading-[1.9] ${isLast ? "mb-10" : "mb-6"}`}
                       style={{ textAlign: "justify" }}
                     >

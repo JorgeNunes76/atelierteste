@@ -540,7 +540,7 @@ export function MentoriaPage() {
 
               {/* Credential tags */}
               <div style={{ display: "flex", flexWrap: "wrap", gap: "8px", marginTop: "32px" }}>
-                {["PhD · FBAUP", "Artista Profissional", "10+ Anos Docência", "Orientadora de Portefólio"].map(tag => (
+                {["PhD · FBAUV", "Artista Plástica", "25+ Anos Docência", "Orientadora de Portefólio"].map(tag => (
                   <span key={tag} style={{
                     fontSize: "0.54rem", letterSpacing: "0.12em", textTransform: "uppercase",
                     color: SEPIA, border: `1px solid rgba(196,149,106,0.3)`,
